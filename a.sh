@@ -1,1 +1,4 @@
-curl -fsSL https://tailscale.com/install.sh | sh && sudo tailscale up --auth-key=tskey-auth-kAqJF3CYS821CNTRL-1yupix1WyPgsy2Z5ZJ9hPgC9toHR4uPtL
+wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz
+tar -xf ngrok*
+ngrok config add-authtoken 2eaehnkTjyL4OmHHKgaCsGmTBEU_6QCyvFZNhdNgHQgNbNQ1g
+ngrok tcp 22
